@@ -1,8 +1,8 @@
-# 🔄 BoolFlip — A Boolean Flip Operator in C++
+# BoolFlip — A Boolean Flip Operator in C++
 
 ---
 
-## 🧩 Overview
+##  Overview
 
 `BoolFlip` explores the idea of introducing a **Boolean flip operator** into C++.  
 Currently, toggling a boolean value requires explicit assignment:
@@ -22,7 +22,7 @@ This mirrors existing operator semantics while improving expressiveness in codeb
 
 ---
 
-## ⚙️ Example Usage
+## Example Usage
 
 ```cpp
 #include <iostream>
@@ -52,7 +52,7 @@ After second flip: true
 
 ---
 
-## 🧱 Implementation
+## Implementation
 
 A minimal header-only prototype that demonstrates the proposed behavior.
 
@@ -76,7 +76,7 @@ This library does not modify the C++ language — it simulates how the proposed 
 
 ---
 
-## 🎯 Motivation
+## Motivation
 
 C++ supports shorthand for numeric mutation (`++`, `--`) but not for logical inversion.  
 Adding a dedicated flip operator would:
@@ -93,7 +93,7 @@ if (enabled) ~enabled;  // more expressive than `enabled = !enabled;`
 
 ---
 
-## 🧠 Design Notes
+## Design Notes
 
 | Aspect          | Choice                | Reason                                                  |
 | --------------- | --------------------- | ------------------------------------------------------- |
@@ -104,7 +104,7 @@ if (enabled) ~enabled;  // more expressive than `enabled = !enabled;`
 
 ---
 
-## 🧩 Directory Structure
+## Directory Structure
 
 ```
 cpp-booleanflip/
@@ -117,7 +117,7 @@ cpp-booleanflip/
 
 ---
 
-## 🚀 Building and Running
+##  Building and Running
 
 ### Prerequisites
 
@@ -146,7 +146,7 @@ demo.exe
 
 ---
 
-## 📚 API Reference
+## API Reference
 
 ### `flip_bool`
 
@@ -194,9 +194,6 @@ if (user_clicked_button) {
 - Similar patterns exist: `++` modifies integers, `~` flips bits for integral types
 
 ---
-
-
-## � License
 
 MIT License © 2025 Muhammad Taaha
 
