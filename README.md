@@ -1,4 +1,4 @@
-# 🔄 BoolFlip — A Proposal for a Boolean Flip Operator in C++
+# 🔄 BoolFlip — A Boolean Flip Operator in C++
 
 ---
 
