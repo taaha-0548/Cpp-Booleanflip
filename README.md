@@ -1,4 +1,4 @@
-# C++ Boolean Flip Operator - Implementation Prototype# 🔄 BoolFlip — A Proposal for a Postfix Boolean Flip Operator in C++
+# BoolFlip — A Proposal for a Postfix Boolean Flip Operator in C++
 
 
 
